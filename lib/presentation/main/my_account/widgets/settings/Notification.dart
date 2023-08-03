@@ -3,10 +3,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:fruit_market/presentation/resources/all_styles.dart';
 import 'package:fruit_market/presentation/resources/color_manager.dart';
 import 'package:fruit_market/presentation/resources/views_sort_manager.dart';
-import '../../app/functions/cubits/app/app_cubit.dart';
-import '../../app/functions/cubits/app/app_states.dart';
-import '../resources/util/util_manager.dart';
-import '../resources/values_manager.dart';
+import '../../../../../app/functions/cubits/app/app_cubit.dart';
+import '../../../../../app/functions/cubits/app/app_states.dart';
+import '../../../../resources/util/util_manager.dart';
+import '../../../../resources/values_manager.dart';
 
 class SettingNotificationView extends StatelessWidget {
   SettingNotificationView({Key? key}) : super(key: key);

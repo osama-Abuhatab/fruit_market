@@ -4,8 +4,8 @@ import 'package:fruit_market/presentation/resources/all_styles.dart';
 import 'package:fruit_market/presentation/resources/util/util_manager.dart';
 import 'package:fruit_market/presentation/resources/values_manager.dart';
 import 'package:fruit_market/presentation/resources/views_sort_manager.dart';
-import '../../app/functions/cubits/app/app_cubit.dart';
-import '../../app/functions/cubits/app/app_states.dart';
+import '../../../../../app/functions/cubits/app/app_cubit.dart';
+import '../../../../../app/functions/cubits/app/app_states.dart';
 
 class SettingsAccView extends StatelessWidget {
   SettingsAccView({Key? key}) : super(key: key);

@@ -3,9 +3,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:fruit_market/presentation/resources/all_styles.dart';
 import 'package:fruit_market/presentation/resources/values_manager.dart';
 import 'package:fruit_market/presentation/resources/views_sort_manager.dart';
-import '../../app/functions/cubits/app/app_cubit.dart';
-import '../../app/functions/cubits/app/app_states.dart';
-import '../resources/util/util_manager.dart';
+import '../../../../../app/functions/cubits/app/app_cubit.dart';
+import '../../../../../app/functions/cubits/app/app_states.dart';
+import '../../../../resources/util/util_manager.dart';
 
 class SettingsAddressView extends StatelessWidget {
   SettingsAddressView({Key? key}) : super(key: key);

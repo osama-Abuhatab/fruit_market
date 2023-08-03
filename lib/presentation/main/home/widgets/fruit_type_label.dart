@@ -4,9 +4,9 @@ import 'package:fruit_market/presentation/resources/all_styles.dart';
 import 'package:fruit_market/presentation/resources/color_manager.dart';
 import 'package:fruit_market/presentation/resources/values_manager.dart';
 
-import '../../../../../app/functions/cubits/app/app_cubit.dart';
-import '../../../../../app/functions/cubits/app/app_states.dart';
-import '../../../../../data/models/fruit_type.dart';
+import '../../../../app/functions/cubits/app/app_cubit.dart';
+import '../../../../app/functions/cubits/app/app_states.dart';
+import '../../../../data/models/fruit_type.dart';
 
 class FruitListTypes extends StatelessWidget {
   FruitListTypes({Key? key}) : super(key: key);

@@ -6,10 +6,10 @@ import 'package:fruit_market/presentation/resources/views_sort_manager.dart';
 import '../../../../../app/functions/cubits/app/app_cubit.dart';
 import '../../../../../app/functions/cubits/app/app_states.dart';
 import '../../../../../data/models/fruit_model.dart';
-import '../../../all_styles.dart';
-import '../../../color_manager.dart';
-import '../../../values_manager.dart';
-import '../../util_manager.dart';
+import '../../../../resources/all_styles.dart';
+import '../../../../resources/color_manager.dart';
+import '../../../../resources/values_manager.dart';
+import '../../../../resources/util/util_manager.dart';
 
 class FruitCard extends StatelessWidget {
   final FruitModel fruitModel;

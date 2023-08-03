@@ -3,8 +3,8 @@ import 'package:fruit_market/data/models/group_model.dart';
 import 'package:fruit_market/presentation/resources/all_styles.dart';
 import 'package:fruit_market/presentation/resources/color_manager.dart';
 
-import '../../../values_manager.dart';
-import '../../util_manager.dart';
+import '../../../../resources/values_manager.dart';
+import '../../../../resources/util/util_manager.dart';
 
 class FruitGroup extends StatelessWidget {
   final GroupModel oneGroup;
